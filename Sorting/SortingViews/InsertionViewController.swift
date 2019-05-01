@@ -34,7 +34,7 @@ class InsertionViewController: UIViewController {
     }
 
     @IBAction func onSort(_sender: Any) {
-        let myArray = [2,7,3,1,21,17]
+        let myArray = [2,7,3,0,21,17]
         let sorted = insertionSort(myArray)
         
         sortedlistLabel.text = "\(sorted)"
